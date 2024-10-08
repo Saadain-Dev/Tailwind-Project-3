@@ -11,13 +11,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Css file -->
     <link rel="stylesheet" href="./style.css" />
-    <!-- <link rel="stylesheet" href="./Base.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-
-    
     <!-- NAV -->
     <nav class="flex justify-between items-center flex-wrap px-[3vw] py-7 bg-black text-white w-full fixed">
         <a href="#" class="logo text-3xl font-bold">Saadain</a>
@@ -27,15 +24,13 @@
                 <h1 class="ml-2">GitHub</h1>
             </a>
             <a href="./profile.html" class="w-10 h-10 rounded-full overflow-hidden">
-                <img src="./Image/WhatsApp Image 2024-10-07 at 18.10.32_72f2457d.jpg" class="w-full h-full object-cover"
-                    alt="">
+                <img src="./Image/WhatsApp Image 2024-10-07 at 18.10.32_72f2457d.jpg" class="w-full h-full object-cover" alt="">
             </a>
             <button class="lg:hidden text-2xl cursor-pointer" id="nav-btn">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
-        <div class="mobile-nav overflow-hidden max-h-0 transition-max-height duration-500 ease-in-out lg:max-h-none w-full lg:block lg:w-auto "
-            id="nav">
+        <div class="mobile-nav overflow-hidden max-h-0 transition-max-height duration-500 ease-in-out lg:max-h-none w-full lg:block lg:w-auto" id="nav">
             <ul class="flex flex-col lg:flex-row gap-4 pt-5 lg:pt-0 lg:gap-8 text-lg">
                 <li><a href="#">Home</a></li>
                 <li><a href="#2">Services</a></li>
@@ -45,32 +40,39 @@
         </div>
     </nav>
     <!-- NAV -->
-    <!-- HERDER -->
-    <header class=" h-[100%] :h-[100vh] w-full bg-cover bg-center mb-20">
-        <div class="flex flex-col gap-8 md:flex-row justify-between md:items-center pt-[120px] sm:pt-[200px] md:pt-[120px] px-[3vw]">
-        <div class="header-1 object-cover order-first sm:order-last "> 
-            <img src="https://portfolio-next-js-3bhk.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero%20image%20(1).ee66062a.png&w=1920&q=75" class="w-full h-full lg:object-cover" alt="">
-        </div>
-        <div class="header-2 w-[300px] sm:w-[100%] lg:w-[500px] sm:ps-10 md:ps-0"> 
-            <div class="bg-white p-2 text-lg md:text-xl font-bold rounded-lg w-[250px] text-center"></div>
-            <div class="text-white text-4xl md:text-5xl font-bold flex flex-col sm:flex-row md:flex-col py-8">
-            <h1>Hello! I am,</h1>
-            <h1>Saadain Shaikh</h1>
-        </div>
-            <p class="text-gray-400 text-lg">Frontend designer can create captivating, responsive experiences.</p>
-            <div class="icon flex gap-4 text-3xl text-white mt-6">
-                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                <a href=""><i class="fa-brands fa-github"></i></a>
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+    <!-- HEADER -->
+    <header class="h-full bg-cover bg-center pb-[100px] px-[25px] md:px-[3vw]">
+        <div class="flex flex-col gap-8 md:flex-row justify-between md:items-center pt-[150px] sm:pt-[200px] md:pt-[120px] mb-16">
+            <div class="header-1 order-first sm:order-last">
+                <img src="https://portfolio-next-js-3bhk.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero%20image%20(1).ee66062a.png&w=1920&q=75" class="w-full h-full lg:object-cover" alt="">
+            </div>
+            
+            <div class="header-2 w-[300px] sm:w-[100%] lg:w-[500px] sm:ps-10 md:ps-0">
+                <div class="bg-white p-2 text-lg md:text-xl font-bold rounded-lg w-[250px] text-center"></div>
+                <div class="text-white text-4xl md:text-5xl font-bold flex flex-col sm:flex-row md:flex-col py-8">
+                    <h1>Hello! I am,</h1>
+                    <h1>Saadain Shaikh</h1>
+                </div>
+                <p class="text-gray-400 text-lg">Frontend designer can create captivating, responsive experiences.</p>
+                <div class="icon flex gap-4 text-3xl text-white mt-6">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/saadain-hussain-arif-58332a31b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Saadain-Dev"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/saadainhussainarif.shaikh"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_saadain_shaikh/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
             </div>
         </div>
-    </div>
-    </header>
 
-    <!-- HERDER -->
+        <div>
+            <div class="flex gap-4 items-center text-white">
+                <h1 class="text-4xl md:text-6xl font-bold tracking-tighter">10</h1>
+                <h1 class="text-xl md:text-3xl text-gray-400">Project Created</h1>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER -->
     <script src="./script.js"></script>
 </body>
-
 </html>
