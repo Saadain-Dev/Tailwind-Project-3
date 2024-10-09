@@ -6,7 +6,7 @@ navBtn.onclick = () => {
   mobileNav.style.maxHeight = mobileNav.style.maxHeight ? null : mobileNav.scrollHeight + "px";
 };
 // NAV //
-let text = document.querySelector(".text-center");
+let text = document.querySelector(".name");
 let words = ["Front-End Developer", "Responsive Expert"];
 let wordIndex = 0, charIndex = 0;
 
