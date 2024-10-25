@@ -40,7 +40,7 @@ const iconData = [
   {icon: "fa-brands fa-facebook", link: "https://www.facebook.com/saadainhussainarif.shaikh"},
   {icon: "fa-brands fa-instagram", link: "https://www.instagram.com/_saadain_shaikh/"}
 ]
-const iconCard = (item) =>{return `<a href="${item.link}" class="text-3xl text-white"><i class="${item.icon}"></i></a>`}
+const iconCard = (item) =>{return `<a href="${item.link}" class="text-3xl text-white animate-bounce"><i class="${item.icon}"></i></a>`}
 // MAIN FUNCATION //
 const renderData = (data, container, fun) => {
   container.innerHTML = `${data.map(fun).join("")}`;};
